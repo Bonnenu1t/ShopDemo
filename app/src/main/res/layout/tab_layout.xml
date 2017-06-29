@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tab_bg"
+  >
+
+    <RadioGroup
+        android:id="@+id/tab_radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:checked="true"
+            android:id="@+id/radiobutton_home"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:button="@null"
+            android:background="@drawable/tab_home_selector"
+            android:textColor="@drawable/tab_text_color"
+            />
+
+        <RadioButton
+            android:id="@+id/radiobutton_discover"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@drawable/tab_text_color"
+            android:background="@drawable/tab_discover_selector"
+            />
+
+        <RadioButton
+            android:id="@+id/radiobutton_lama"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_tab_groupbuy"
+            />
+
+        <RadioButton
+            android:id="@+id/radiobutton_feed"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="@drawable/tab_text_color"
+            android:background="@drawable/tab_feed_selector"
+            />
+
+
+        <RadioButton
+            android:id="@+id/radiobutton_me"
+            android:textColor="@drawable/tab_text_color"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/tab_me_selector"
+            />
+
+
+
+    </RadioGroup>
+
+
+</LinearLayout>

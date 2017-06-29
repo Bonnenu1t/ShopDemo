@@ -1,0 +1,5 @@
+
+Ksquid:S1444"1Make this "public static application" field final(Ñ£Ïéøÿÿÿÿ
+Jsquid:S2696"6Make the enclosing method "static" or remove this set.(´òã=
+Jsquid:S2696"6Make the enclosing method "static" or remove this set.(´òã=
+ˆ"squid:ClassVariableVisibilityCheck"WMake application a static final constant or non-public and provide accessors if needed.(Ñ£Ïéøÿÿÿÿ
